@@ -37,11 +37,14 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
     # 3rd Party
     'crispy_forms',
+
     # local
     'users.apps.UsersConfig',
     'pages.apps.PagesConfig',
+    'articles.apps.ArticlesConfig',
 
 ]
 
@@ -139,4 +142,7 @@ EMAIL_HOST_USER = 'apikey'
 EMAIL_HOST_PASSWORD = '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' 
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
+
+
+TIME_ZONE = 'America/New_York'
 
